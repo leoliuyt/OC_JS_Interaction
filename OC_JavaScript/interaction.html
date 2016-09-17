@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    window.onerror = function(err) {
+        log('window.onerror: ' + err)
+    }
+
+    function asetupWebViewJavascriptBridge(callback) {
+        if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+        if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+        window.WVJBCallbacks = [callback];
+        var WVJBIframe = document.createElement('iframe');
+        WVJBIframe.style.display = 'none';
+        WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__';
+        document.documentElement.appendChild(WVJBIframe);
+        setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+    }
+
+    asetupWebViewJavascriptBridge(function(bridge) {
+                                  bridge.registerHandler('registerInJSFunction', function(data, responseCallback) {
+                                                         alert('JS方法被调用:'+data);
+                                                         responseCallback('js执行过了');
+                                                         })
+    })
+    
+    function shareAction() {
+        WebViewJavascriptBridge.callHandler('shareAction', {'foo': 'bar'}, function(response) {
+                                            alert('分享结果:' + response);
+                                            document.getElementById("returnValue").value = response;
+                                            })
+    }
+
+    function showBigPicAction(){
+        WebViewJavascriptBridge.callHandler('showBigPicAction', {'pageNumber': '3'}, function(response) {
+                                            alert('查看大图结果:' + response);
+                                            document.getElementById("returnValue").value = response;
+                                            })
+    }
+
+    function payAction(){
+        WebViewJavascriptBridge.callHandler('payAction', {'orderNum': '*xxx*xxx*'}, function(response) {
+                                            alert('支付结果:' + response);
+                                            document.getElementById("returnValue").value = response;
+                                            })
+    }
+
+    function goBackAction(){
+        WebViewJavascriptBridge.callHandler('goBackAction', {'pageNumber': '3'}, function(response) {
+                                            alert('返回结果:' + response);
+                                            document.getElementById("returnValue").value = response;
+                                            })
+    }
+</script>
+<h1>这是html中按钮</h1>
+<input id = 'showBigPicBtn' type="button" value="查看大图" onclick="showBigPicAction()"/>
+<input id = 'shareBtn' type="button" value="分享" onclick="shareAction()" />
+<input id = 'payBtn' type="button" value="支付" onclick="payAction()" />
+<input id = 'gobackBtn' type="button" value="返回" onclick="goBackAction()" />
+
+<h1>这是回调结果展示区</h1>
+<textarea id ="returnValue" type="value" rows="5" cols="50">
+</textarea>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    window.onerror = function(err) {
+        log('window.onerror: ' + err)
+    }
+
+    function postRequest(url) {
+        var iFrame;
+        iFrame = document.createElement("iframe");
+        iFrame.setAttribute("src", url);
+        iFrame.setAttribute("style", "display:none;");
+        iFrame.setAttribute("height", "0px");
+        iFrame.setAttribute("width", "0px");
+        iFrame.setAttribute("frameborder", "0");
+        document.body.appendChild(iFrame);
+        // 发起请求后这个iFrame就没用了，所以把它从dom上移除掉
+        iFrame.parentNode.removeChild(iFrame);
+        iFrame = null;
+    }
+
+    function shareAction() {
+        postRequest("customprotocol://share?title=测试分享的标题&content=测试分享的内容&url=http://www.baidu.com");
+    }
+
+    function showBigPicAction(){
+        postRequest("customprotocol://showpic");
+    }
+
+    function payAction(){
+        postRequest("customprotocol://pay");
+    }
+
+    function goBackAction(){
+        postRequest("customprotocol://goback");
+    }
+
+    function setReturnValue(aValue){
+        document.getElementById("returnValue").value = aValue;
+    }
+
+    function shareSuccess(title,content,url){
+        var content = title+","+content+","+url;
+        document.getElementById("returnValue").value = content;
+    }
+
+    function paySuccess(tip){
+        document.getElementById("returnValue").value = tip;
+    }
+</script>
+<h1>这是html中按钮</h1>
+<input id = 'showBigPicBtn' type="button" value="查看大图" onclick="showBigPicAction()"/>
+<input id = 'shareBtn' type="button" value="分享" onclick="shareAction()" />
+<input id = 'payBtn' type="button" value="支付" onclick="payAction()" />
+<input id = 'gobackBtn' type="button" value="返回" onclick="goBackAction()" />
+
+<h1>这是回调结果展示区</h1>
+<textarea id ="returnValue" type="value" rows="5" cols="50">
+</textarea>
+</body>
+</html>

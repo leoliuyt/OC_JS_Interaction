@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    window.onerror = function(err) {
+        log('window.onerror: ' + err)
+    }
+    
+    function shareAction() {
+        share('测试分享的标题','测试分享的内容','url=http://www.baidu.com');
+    }
+
+    function showBigPicAction(){
+        showPic();
+    }
+
+    function payAction(){
+        pay();
+    }
+
+    function goBackAction(){
+        goBack();
+    }
+
+    function setReturnValue(aValue){
+        document.getElementById("returnValue").value = aValue;
+    }
+
+    function shareSuccess(title,content,url){
+        var content = title+","+content+","+url;
+        document.getElementById("returnValue").value = content;
+    }
+
+    function paySuccess(tip){
+        document.getElementById("returnValue").value = tip;
+    }
+</script>
+<h1>这是html中按钮</h1>
+<input id = 'showBigPicBtn' type="button" value="查看大图" onclick="showBigPicAction()"/>
+<input id = 'shareBtn' type="button" value="分享" onclick="shareAction()" />
+<input id = 'payBtn' type="button" value="支付" onclick="payAction()" />
+<input id = 'gobackBtn' type="button" value="返回" onclick="goBackAction()" />
+
+<h1>这是回调结果展示区</h1>
+<textarea id ="returnValue" type="value" rows="5" cols="50">
+</textarea>
+</body>
+</html>

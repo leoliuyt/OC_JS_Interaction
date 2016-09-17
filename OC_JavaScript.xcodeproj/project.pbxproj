@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87764C6ADBCF77DCCC705556 /* libPods-OC_JavaScript.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EC6990EDAF135B27632AC2 /* libPods-OC_JavaScript.a */; };
+		9E2C9BD01D8B96F6007EA3EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C9BCF1D8B96F6007EA3EC /* main.m */; };
+		9E2C9BD31D8B96F6007EA3EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C9BD21D8B96F6007EA3EC /* AppDelegate.m */; };
+		9E2C9BD61D8B96F6007EA3EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C9BD51D8B96F6007EA3EC /* ViewController.m */; };
+		9E2C9BD91D8B96F6007EA3EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C9BD71D8B96F6007EA3EC /* Main.storyboard */; };
+		9E2C9BDB1D8B96F6007EA3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C9BDA1D8B96F6007EA3EC /* Assets.xcassets */; };
+		9E2C9BDE1D8B96F6007EA3EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C9BDC1D8B96F6007EA3EC /* LaunchScreen.storyboard */; };
+		9E2C9BE91D8B970C007EA3EC /* LLWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C9BE61D8B970C007EA3EC /* LLWebViewVC.m */; };
+		9E2C9BEA1D8B970C007EA3EC /* LLWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C9BE81D8B970C007EA3EC /* LLWKWebViewVC.m */; };
+		9E2C9BEC1D8BA11E007EA3EC /* interaction.html in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C9BEB1D8BA11E007EA3EC /* interaction.html */; };
+		9E2C9BEF1D8BACCE007EA3EC /* LLJSCoreWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C9BEE1D8BACCE007EA3EC /* LLJSCoreWebViewVC.m */; };
+		9E2C9BF11D8BAD63007EA3EC /* jscore_interaction.html in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C9BF01D8BAD63007EA3EC /* jscore_interaction.html */; };
+		9E2C9BF41D8BB6A0007EA3EC /* LLBridgeWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C9BF31D8BB6A0007EA3EC /* LLBridgeWKWebViewVC.m */; };
+		9E2C9BF61D8BB81F007EA3EC /* wk_interaction.html in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C9BF51D8BB81F007EA3EC /* wk_interaction.html */; };
+		9E2C9BF81D8BBD71007EA3EC /* url_interaction.html in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C9BF71D8BBD71007EA3EC /* url_interaction.html */; };
+		9E2C9BFB1D8BBED9007EA3EC /* LLURLWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C9BFA1D8BBED9007EA3EC /* LLURLWebViewVC.m */; };
+		9E2C9BFE1D8BBEE8007EA3EC /* LLURLWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C9BFD1D8BBEE8007EA3EC /* LLURLWKWebViewVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		556EBAA4BC97D91AAB825106 /* Pods-OC_JavaScript.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC_JavaScript.release.xcconfig"; path = "Pods/Target Support Files/Pods-OC_JavaScript/Pods-OC_JavaScript.release.xcconfig"; sourceTree = "<group>"; };
+		56AB864E034369C422E7D3D0 /* Pods-OC_JavaScript.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC_JavaScript.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OC_JavaScript/Pods-OC_JavaScript.debug.xcconfig"; sourceTree = "<group>"; };
+		76EC6990EDAF135B27632AC2 /* libPods-OC_JavaScript.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OC_JavaScript.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2C9BCB1D8B96F6007EA3EC /* OC_JavaScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC_JavaScript.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2C9BCF1D8B96F6007EA3EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E2C9BD11D8B96F6007EA3EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E2C9BD21D8B96F6007EA3EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E2C9BD41D8B96F6007EA3EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E2C9BD51D8B96F6007EA3EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E2C9BD81D8B96F6007EA3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E2C9BDA1D8B96F6007EA3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E2C9BDD1D8B96F6007EA3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E2C9BDF1D8B96F6007EA3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2C9BE51D8B970C007EA3EC /* LLWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLWebViewVC.h; sourceTree = "<group>"; };
+		9E2C9BE61D8B970C007EA3EC /* LLWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLWebViewVC.m; sourceTree = "<group>"; };
+		9E2C9BE71D8B970C007EA3EC /* LLWKWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLWKWebViewVC.h; sourceTree = "<group>"; };
+		9E2C9BE81D8B970C007EA3EC /* LLWKWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLWKWebViewVC.m; sourceTree = "<group>"; };
+		9E2C9BEB1D8BA11E007EA3EC /* interaction.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = interaction.html; sourceTree = "<group>"; };
+		9E2C9BED1D8BACCE007EA3EC /* LLJSCoreWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLJSCoreWebViewVC.h; sourceTree = "<group>"; };
+		9E2C9BEE1D8BACCE007EA3EC /* LLJSCoreWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLJSCoreWebViewVC.m; sourceTree = "<group>"; };
+		9E2C9BF01D8BAD63007EA3EC /* jscore_interaction.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jscore_interaction.html; sourceTree = "<group>"; };
+		9E2C9BF21D8BB6A0007EA3EC /* LLBridgeWKWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBridgeWKWebViewVC.h; sourceTree = "<group>"; };
+		9E2C9BF31D8BB6A0007EA3EC /* LLBridgeWKWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBridgeWKWebViewVC.m; sourceTree = "<group>"; };
+		9E2C9BF51D8BB81F007EA3EC /* wk_interaction.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wk_interaction.html; sourceTree = "<group>"; };
+		9E2C9BF71D8BBD71007EA3EC /* url_interaction.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = url_interaction.html; sourceTree = "<group>"; };
+		9E2C9BF91D8BBED9007EA3EC /* LLURLWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLURLWebViewVC.h; sourceTree = "<group>"; };
+		9E2C9BFA1D8BBED9007EA3EC /* LLURLWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLURLWebViewVC.m; sourceTree = "<group>"; };
+		9E2C9BFC1D8BBEE8007EA3EC /* LLURLWKWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLURLWKWebViewVC.h; sourceTree = "<group>"; };
+		9E2C9BFD1D8BBEE8007EA3EC /* LLURLWKWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLURLWKWebViewVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E2C9BC81D8B96F6007EA3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87764C6ADBCF77DCCC705556 /* libPods-OC_JavaScript.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D306D12DA8D4725D53B6873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76EC6990EDAF135B27632AC2 /* libPods-OC_JavaScript.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E2C9BC21D8B96F6007EA3EC = {
+			isa = PBXGroup;
+			children = (
+				9E2C9BCD1D8B96F6007EA3EC /* OC_JavaScript */,
+				9E2C9BCC1D8B96F6007EA3EC /* Products */,
+				FF5662A8B896AF379E739C6A /* Pods */,
+				7D306D12DA8D4725D53B6873 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E2C9BCC1D8B96F6007EA3EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E2C9BCB1D8B96F6007EA3EC /* OC_JavaScript.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E2C9BCD1D8B96F6007EA3EC /* OC_JavaScript */ = {
+			isa = PBXGroup;
+			children = (
+				9E2C9BF71D8BBD71007EA3EC /* url_interaction.html */,
+				9E2C9BF51D8BB81F007EA3EC /* wk_interaction.html */,
+				9E2C9BF01D8BAD63007EA3EC /* jscore_interaction.html */,
+				9E2C9BEB1D8BA11E007EA3EC /* interaction.html */,
+				9E2C9BD11D8B96F6007EA3EC /* AppDelegate.h */,
+				9E2C9BD21D8B96F6007EA3EC /* AppDelegate.m */,
+				9E2C9BD41D8B96F6007EA3EC /* ViewController.h */,
+				9E2C9BD51D8B96F6007EA3EC /* ViewController.m */,
+				9E2C9BE51D8B970C007EA3EC /* LLWebViewVC.h */,
+				9E2C9BE61D8B970C007EA3EC /* LLWebViewVC.m */,
+				9E2C9BE71D8B970C007EA3EC /* LLWKWebViewVC.h */,
+				9E2C9BE81D8B970C007EA3EC /* LLWKWebViewVC.m */,
+				9E2C9BED1D8BACCE007EA3EC /* LLJSCoreWebViewVC.h */,
+				9E2C9BEE1D8BACCE007EA3EC /* LLJSCoreWebViewVC.m */,
+				9E2C9BF21D8BB6A0007EA3EC /* LLBridgeWKWebViewVC.h */,
+				9E2C9BF31D8BB6A0007EA3EC /* LLBridgeWKWebViewVC.m */,
+				9E2C9BF91D8BBED9007EA3EC /* LLURLWebViewVC.h */,
+				9E2C9BFA1D8BBED9007EA3EC /* LLURLWebViewVC.m */,
+				9E2C9BFC1D8BBEE8007EA3EC /* LLURLWKWebViewVC.h */,
+				9E2C9BFD1D8BBEE8007EA3EC /* LLURLWKWebViewVC.m */,
+				9E2C9BD71D8B96F6007EA3EC /* Main.storyboard */,
+				9E2C9BDA1D8B96F6007EA3EC /* Assets.xcassets */,
+				9E2C9BDC1D8B96F6007EA3EC /* LaunchScreen.storyboard */,
+				9E2C9BDF1D8B96F6007EA3EC /* Info.plist */,
+				9E2C9BCE1D8B96F6007EA3EC /* Supporting Files */,
+			);
+			path = OC_JavaScript;
+			sourceTree = "<group>";
+		};
+		9E2C9BCE1D8B96F6007EA3EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E2C9BCF1D8B96F6007EA3EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF5662A8B896AF379E739C6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56AB864E034369C422E7D3D0 /* Pods-OC_JavaScript.debug.xcconfig */,
+				556EBAA4BC97D91AAB825106 /* Pods-OC_JavaScript.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E2C9BCA1D8B96F6007EA3EC /* OC_JavaScript */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2C9BE21D8B96F6007EA3EC /* Build configuration list for PBXNativeTarget "OC_JavaScript" */;
+			buildPhases = (
+				9CE7CC748DB8EE9409CDE29D /* Check Pods Manifest.lock */,
+				9E2C9BC71D8B96F6007EA3EC /* Sources */,
+				9E2C9BC81D8B96F6007EA3EC /* Frameworks */,
+				9E2C9BC91D8B96F6007EA3EC /* Resources */,
+				ADBBE3ED11BEB8120CA288A0 /* Embed Pods Frameworks */,
+				2D5F81B7468D0DF94E902A1F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OC_JavaScript;
+			productName = OC_JavaScript;
+			productReference = 9E2C9BCB1D8B96F6007EA3EC /* OC_JavaScript.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E2C9BC31D8B96F6007EA3EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LL;
+				TargetAttributes = {
+					9E2C9BCA1D8B96F6007EA3EC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E2C9BC61D8B96F6007EA3EC /* Build configuration list for PBXProject "OC_JavaScript" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E2C9BC21D8B96F6007EA3EC;
+			productRefGroup = 9E2C9BCC1D8B96F6007EA3EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E2C9BCA1D8B96F6007EA3EC /* OC_JavaScript */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E2C9BC91D8B96F6007EA3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2C9BDE1D8B96F6007EA3EC /* LaunchScreen.storyboard in Resources */,
+				9E2C9BDB1D8B96F6007EA3EC /* Assets.xcassets in Resources */,
+				9E2C9BF81D8BBD71007EA3EC /* url_interaction.html in Resources */,
+				9E2C9BF11D8BAD63007EA3EC /* jscore_interaction.html in Resources */,
+				9E2C9BD91D8B96F6007EA3EC /* Main.storyboard in Resources */,
+				9E2C9BEC1D8BA11E007EA3EC /* interaction.html in Resources */,
+				9E2C9BF61D8BB81F007EA3EC /* wk_interaction.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D5F81B7468D0DF94E902A1F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OC_JavaScript/Pods-OC_JavaScript-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE7CC748DB8EE9409CDE29D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADBBE3ED11BEB8120CA288A0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OC_JavaScript/Pods-OC_JavaScript-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E2C9BC71D8B96F6007EA3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2C9BFB1D8BBED9007EA3EC /* LLURLWebViewVC.m in Sources */,
+				9E2C9BD61D8B96F6007EA3EC /* ViewController.m in Sources */,
+				9E2C9BD31D8B96F6007EA3EC /* AppDelegate.m in Sources */,
+				9E2C9BEF1D8BACCE007EA3EC /* LLJSCoreWebViewVC.m in Sources */,
+				9E2C9BE91D8B970C007EA3EC /* LLWebViewVC.m in Sources */,
+				9E2C9BD01D8B96F6007EA3EC /* main.m in Sources */,
+				9E2C9BEA1D8B970C007EA3EC /* LLWKWebViewVC.m in Sources */,
+				9E2C9BF41D8BB6A0007EA3EC /* LLBridgeWKWebViewVC.m in Sources */,
+				9E2C9BFE1D8BBEE8007EA3EC /* LLURLWKWebViewVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E2C9BD71D8B96F6007EA3EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2C9BD81D8B96F6007EA3EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E2C9BDC1D8B96F6007EA3EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2C9BDD1D8B96F6007EA3EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E2C9BE01D8B96F6007EA3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E2C9BE11D8B96F6007EA3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E2C9BE31D8B96F6007EA3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56AB864E034369C422E7D3D0 /* Pods-OC_JavaScript.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OC_JavaScript/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msb.OC-JavaScript";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E2C9BE41D8B96F6007EA3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556EBAA4BC97D91AAB825106 /* Pods-OC_JavaScript.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OC_JavaScript/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msb.OC-JavaScript";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E2C9BC61D8B96F6007EA3EC /* Build configuration list for PBXProject "OC_JavaScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2C9BE01D8B96F6007EA3EC /* Debug */,
+				9E2C9BE11D8B96F6007EA3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2C9BE21D8B96F6007EA3EC /* Build configuration list for PBXNativeTarget "OC_JavaScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2C9BE31D8B96F6007EA3EC /* Debug */,
+				9E2C9BE41D8B96F6007EA3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E2C9BC31D8B96F6007EA3EC /* Project object */;
+}
